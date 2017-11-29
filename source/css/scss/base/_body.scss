@@ -1,0 +1,53 @@
+/*------------------------------------*\
+    #BODY
+\*------------------------------------*/
+
+@font-face {
+	font-family: circular;
+	src: url("../fonts/CircularStd-Book.otf") format("opentype");
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: circular;
+	src: url("../fonts/CircularStd-BookItalic.otf") format("opentype");
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: circular;
+	src: url("../fonts/CircularStd-Bold.otf") format("opentype");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: circular;
+	src: url("../fonts/CircularStd-Medium.otf") format("opentype");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: circular;
+	src: url("../fonts/CircularStd-MediumItalic.otf") format("opentype");
+	font-weight: 600;
+	font-style: italic;
+}
+/**
+ * Body base styles
+ */
+body {
+	background: $color-white;
+	color: $color-gray-2;
+	font: 100%/1.5 $font;
+	-webkit-text-size-adjust: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.font-secondary{
+	font-family: $font-secondary;
+}

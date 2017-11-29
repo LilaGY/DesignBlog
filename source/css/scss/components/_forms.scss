@@ -1,0 +1,15 @@
+input{
+    border-radius:30px;
+    border:none;
+    background: $color-flashy-green;
+    padding:2px;
+    width:365px;
+    height:30px;
+}
+
+input::placeholder{
+    font-family: $font;
+    font-style: italic;
+    font-size: 18px;
+    opacity:0.4;
+}

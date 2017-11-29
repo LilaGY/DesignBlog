@@ -1,0 +1,58 @@
+/*------------------------------------*\
+    #HEADINGS
+\*------------------------------------*/
+
+/**
+ * Heading 1
+ */
+h1  {
+	font-size: 3rem;
+	line-height: 1.2;
+	color:rgb(1, 1, 126);
+}
+
+/**
+ * Heading 2
+ */
+h2 {
+	line-height: 1.2;
+	color:rgb(64, 91, 247);
+}
+
+/**
+ * Heading 3
+ */
+h3  {
+	line-height: 1.2;
+	color:green;
+}
+
+/**
+ * Heading 4
+ */
+h4  {
+	color:yellowgreen;	
+}
+
+/**
+ * Heading 5
+ */
+h5 {
+	color:rgb(177, 202, 121);		
+}
+
+/**
+ * Heading 6
+ */
+h6 {
+	color:rgb(196, 204, 77);		
+
+}
+
+/**
+ * Subheading
+ */
+.subheading {
+	font-family: $font-secondary;
+	font-weight: normal;
+}
