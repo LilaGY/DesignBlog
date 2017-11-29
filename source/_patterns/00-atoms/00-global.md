@@ -1,3 +1,0 @@
-This a test of my design blog
-I'm trying to do what they ask me to do, but I learned to encode today so I'm so slow.... tryin' to do best sir I swear ! 
-Don't worry, I'll continue to encode tomorrow... Too tired...
