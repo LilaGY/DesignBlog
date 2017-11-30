@@ -6,8 +6,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width" />
 
-  <link rel="stylesheet" href="../../css/style.css?1511995551397" media="all" />
-  <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1511995551397" media="all" />
+  <link rel="stylesheet" href="../../css/style.css?1512075568799" media="all" />
+  <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1512075568799" media="all" />
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
   <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
@@ -18,8 +18,8 @@
   <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
   <meta http-equiv="pragma" content="no-cache" />
 
-  <link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1511995551397" media="all">
-  <link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1511995551397" media="all" />
+  <link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1512075568799" media="all">
+  <link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1512075568799" media="all" />
 
   <!-- End Pattern Lab -->
 
@@ -27,26 +27,49 @@
 
 <body class="">
 
+  <div class="titre-section">
+    <p class="titre-section">Derniers articles <br>de la semaine</br>
+    </p>
+    <img class="imageligne" src="" alt="" />
 
+  </div>
   <!--DO NOT REMOVE-->
   <script type="text/json" id="sg-pattern-data-footer" class="sg-pattern-data">
     {
       "cssEnabled": false,
-      "patternLineageExists": false,
-      "patternLineages": [],
-      "lineage": [],
-      "patternLineageRExists": false,
-      "patternLineagesR": [],
-      "lineageR": [],
-      "patternLineageEExists": false,
-      "patternDesc": "<p>[Insert description here]</p>\n",
+      "patternLineageExists": true,
+      "patternLineages": [{
+        "lineagePattern": "atoms-titre-section",
+        "lineagePath": "../../patterns/00-atoms-text-titre-section/00-atoms-text-titre-section.rendered.html"
+      }, {
+        "lineagePattern": "atoms-ligne",
+        "lineagePath": "../../patterns/00-atoms-forms-00-ligne/00-atoms-forms-00-ligne.rendered.html"
+      }],
+      "lineage": [{
+        "lineagePattern": "atoms-titre-section",
+        "lineagePath": "../../patterns/00-atoms-text-titre-section/00-atoms-text-titre-section.rendered.html"
+      }, {
+        "lineagePattern": "atoms-ligne",
+        "lineagePath": "../../patterns/00-atoms-forms-00-ligne/00-atoms-forms-00-ligne.rendered.html"
+      }],
+      "patternLineageRExists": true,
+      "patternLineagesR": [{
+        "lineagePattern": "organismes-articles",
+        "lineagePath": "../../patterns/02-organismes-00-articles-00-articles/02-organismes-00-articles-00-articles.rendered.html"
+      }],
+      "lineageR": [{
+        "lineagePattern": "organismes-articles",
+        "lineagePath": "../../patterns/02-organismes-00-articles-00-articles/02-organismes-00-articles-00-articles.rendered.html"
+      }],
+      "patternLineageEExists": true,
+      "patternDesc": "",
       "patternBreadcrumb": {
-        "patternType": "atoms",
-        "patternSubtype": "text"
+        "patternType": "molecules",
+        "patternSubtype": "titre-section"
       },
       "patternExtension": "mustache",
-      "patternName": "Horizontal Rule",
-      "patternPartial": "atoms-hr",
+      "patternName": "Titre Section",
+      "patternPartial": "molecules-titre-section",
       "patternState": "",
       "patternEngineName": "mustache",
       "extraOutput": {}
@@ -86,10 +109,10 @@
     }
   </script>
 
-  <script id="pl-js-polyfill-insert-1511995551397">
+  <script id="pl-js-polyfill-insert-1512075568799">
     (function() {
       if (self != top) {
-        var cb = '1511995551397';
+        var cb = '1512075568799';
         var js = [];
         if (typeof document !== 'undefined' && !('classList' in document.documentElement)) {
           js.push('styleguide/bower_components/classList.min.js');
@@ -99,10 +122,10 @@
     })();
   </script>
 
-  <script id="pl-js-insert-1511995551397">
+  <script id="pl-js-insert-1512075568799">
     (function() {
       if (self != top) {
-        var cb = '1511995551397';
+        var cb = '1512075568799';
         var js = [{
           'src': 'styleguide/bower_components/jwerty.min.js',
           'dep': ['styleguide/js/patternlab-pattern.min.js']
