@@ -6,8 +6,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width" />
 
-  <link rel="stylesheet" href="../../css/style.css?1512498508229" media="all" />
-  <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1512498508229" media="all" />
+  <link rel="stylesheet" href="../../css/style.css?1512586190422" media="all" />
+  <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1512586190422" media="all" />
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
   <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
@@ -18,8 +18,8 @@
   <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
   <meta http-equiv="pragma" content="no-cache" />
 
-  <link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1512498508229" media="all">
-  <link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1512498508229" media="all" />
+  <link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1512586190422" media="all">
+  <link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1512586190422" media="all" />
 
   <!-- End Pattern Lab -->
 
@@ -31,9 +31,12 @@
     <div class="hero">
       <img class="logo-blog" src="..&#x2F;..&#x2F;images&#x2F;logoblog.svg" alt="image logo blog" />
 
-      <p class="legende-hero">« Jour après jour, il semble donc qu'à travers son accessibilité, sa quasi-exhaustivité, sa gratuité, sa diversité, le numérique offre les garanties d'un paysage culturel idéal. » </p>
 
-      <p class="auteur-hero">David Lacombled</p>
+      <div class="legende-auteur-hero">
+        <p class="legende-hero">« Jour après jour, il semble donc qu'à travers son accessibilité, sa quasi-exhaustivité, sa gratuité, sa diversité, le numérique offre les garanties d'un paysage culturel idéal. » </p>
+
+        <p class="auteur-hero">David Lacombled</p>
+      </div>
     </div>
   </div>
   <!--DO NOT REMOVE-->
@@ -49,9 +52,15 @@
         "lineagePattern": "molecules-hero",
         "lineagePath": "../../patterns/01-molecules-00-hero-00-hero/01-molecules-00-hero-00-hero.rendered.html"
       }],
-      "patternLineageRExists": false,
-      "patternLineagesR": [],
-      "lineageR": [],
+      "patternLineageRExists": true,
+      "patternLineagesR": [{
+        "lineagePattern": "templates-accueil",
+        "lineagePath": "../../patterns/03-templates-00-accueil-00-accueil/03-templates-00-accueil-00-accueil.rendered.html"
+      }],
+      "lineageR": [{
+        "lineagePattern": "templates-accueil",
+        "lineagePath": "../../patterns/03-templates-00-accueil-00-accueil/03-templates-00-accueil-00-accueil.rendered.html"
+      }],
       "patternLineageEExists": true,
       "patternDesc": "",
       "patternBreadcrumb": {
@@ -100,10 +109,10 @@
     }
   </script>
 
-  <script id="pl-js-polyfill-insert-1512498508229">
+  <script id="pl-js-polyfill-insert-1512586190422">
     (function() {
       if (self != top) {
-        var cb = '1512498508229';
+        var cb = '1512586190422';
         var js = [];
         if (typeof document !== 'undefined' && !('classList' in document.documentElement)) {
           js.push('styleguide/bower_components/classList.min.js');
@@ -113,10 +122,10 @@
     })();
   </script>
 
-  <script id="pl-js-insert-1512498508229">
+  <script id="pl-js-insert-1512586190422">
     (function() {
       if (self != top) {
-        var cb = '1512498508229';
+        var cb = '1512586190422';
         var js = [{
           'src': 'styleguide/bower_components/jwerty.min.js',
           'dep': ['styleguide/js/patternlab-pattern.min.js']
