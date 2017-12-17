@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1513195231098,
+  "timestamp": 1513252869887,
   "graph": {
     "options": {
       "directed": true,
@@ -132,8 +132,8 @@
         "v": "00-atoms/images/article-accueil-img.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/01-molecules-00-articles-00-articles/01-molecules-00-articles-00-articles.rendered.html",
-          "lineagePattern": "molecules-articles"
+          "lineagePath": "../../patterns/01-molecules-00-preview-articles-resume-00-preview-articles-resume/01-molecules-00-preview-articles-resume-00-preview-articles-resume.rendered.html",
+          "lineagePattern": "molecules-preview-articles-resume"
         }
       },
       {
@@ -163,7 +163,9 @@
       {
         "v": "00-atoms/images/logo-ecv.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organismes-00-footer-00-footer1/02-organismes-00-footer-00-footer1.rendered.html",
+          "lineagePattern": "organismes-footer1"
         }
       },
       {
@@ -183,7 +185,9 @@
       {
         "v": "00-atoms/images/picto-agenda.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/01-molecules-00-preview-articles-infos-00-preview-articles-infos/01-molecules-00-preview-articles-infos-00-preview-articles-infos.rendered.html",
+          "lineagePattern": "molecules-preview-articles-infos"
         }
       },
       {
@@ -232,8 +236,8 @@
         "v": "00-atoms/text/legende-article-acceuil.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/01-molecules-00-articles-00-articles/01-molecules-00-articles-00-articles.rendered.html",
-          "lineagePattern": "molecules-articles"
+          "lineagePath": "../../patterns/01-molecules-00-preview-articles-resume-00-preview-articles-resume/01-molecules-00-preview-articles-resume-00-preview-articles-resume.rendered.html",
+          "lineagePattern": "molecules-preview-articles-resume"
         }
       },
       {
@@ -256,14 +260,22 @@
         "v": "00-atoms/text/paragraph-article-accueil.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/01-molecules-00-articles-00-articles/01-molecules-00-articles-00-articles.rendered.html",
-          "lineagePattern": "molecules-articles"
+          "lineagePath": "../../patterns/01-molecules-00-preview-articles-resume-00-preview-articles-resume/01-molecules-00-preview-articles-resume-00-preview-articles-resume.rendered.html",
+          "lineagePattern": "molecules-preview-articles-resume"
         }
       },
       {
         "v": "00-atoms/text/preformatted-text.mustache",
         "value": {
           "compileState": "clean"
+        }
+      },
+      {
+        "v": "00-atoms/text/preview-evnmts-date-lieu.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/01-molecules-00-preview-articles-infos-00-preview-articles-infos/01-molecules-00-preview-articles-infos-00-preview-articles-infos.rendered.html",
+          "lineagePattern": "molecules-preview-articles-infos"
         }
       },
       {
@@ -294,14 +306,6 @@
           "compileState": "clean",
           "lineagePath": "../../patterns/01-molecules-00-titre-section-00-titre-section/01-molecules-00-titre-section-00-titre-section.rendered.html",
           "lineagePattern": "molecules-titre-section"
-        }
-      },
-      {
-        "v": "01-molecules/00-articles/00-articles.mustache",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/02-organismes-00-articles-00-articles/02-organismes-00-articles-00-articles.rendered.html",
-          "lineagePattern": "organismes-articles"
         }
       },
       {
@@ -337,6 +341,22 @@
         }
       },
       {
+        "v": "01-molecules/00-preview-articles-infos/00-preview-articles-infos.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organismes-00-preview-evnmts-00-preview-evnmts/02-organismes-00-preview-evnmts-00-preview-evnmts.rendered.html",
+          "lineagePattern": "organismes-preview-evnmts"
+        }
+      },
+      {
+        "v": "01-molecules/00-preview-articles-resume/00-preview-articles-resume.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-organismes-00-preview-evnmts-00-preview-evnmts/02-organismes-00-preview-evnmts-00-preview-evnmts.rendered.html",
+          "lineagePattern": "organismes-preview-evnmts"
+        }
+      },
+      {
         "v": "01-molecules/00-theme-cdc/00-theme-cdc.mustache",
         "value": {
           "compileState": "clean",
@@ -348,16 +368,8 @@
         "v": "01-molecules/00-titre-section/00-titre-section.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-organismes-00-articles-00-articles/02-organismes-00-articles-00-articles.rendered.html",
-          "lineagePattern": "organismes-articles"
-        }
-      },
-      {
-        "v": "02-organismes/00-articles/00-articles.mustache",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/03-templates-00-accueil-00-accueil/03-templates-00-accueil-00-accueil.rendered.html",
-          "lineagePattern": "templates-accueil"
+          "lineagePath": "../../patterns/02-organismes-00-preview-evnmts-00-preview-evnmts/02-organismes-00-preview-evnmts-00-preview-evnmts.rendered.html",
+          "lineagePattern": "organismes-preview-evnmts"
         }
       },
       {
@@ -370,6 +382,14 @@
       },
       {
         "v": "02-organismes/00-footer/00-footer1.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-05-apropos-00-apropos/03-templates-05-apropos-00-apropos.rendered.html",
+          "lineagePattern": "templates-apropos"
+        }
+      },
+      {
+        "v": "02-organismes/00-footer/00-footer2.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/03-templates-05-apropos-00-apropos/03-templates-05-apropos-00-apropos.rendered.html",
@@ -398,6 +418,20 @@
           "compileState": "clean",
           "lineagePath": "../../patterns/03-templates-03-agenda-00-agenda/03-templates-03-agenda-00-agenda.rendered.html",
           "lineagePattern": "templates-agenda"
+        }
+      },
+      {
+        "v": "02-organismes/00-preview-articles/00-preview-articles.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-00-accueil-00-accueil/03-templates-00-accueil-00-accueil.rendered.html",
+          "lineagePattern": "templates-accueil"
+        }
+      },
+      {
+        "v": "02-organismes/00-preview-evnmts/00-preview-evnmts.mustache",
+        "value": {
+          "compileState": "clean"
         }
       },
       {
@@ -453,26 +487,6 @@
     ],
     "edges": [
       {
-        "v": "01-molecules/00-articles/00-articles.mustache",
-        "w": "00-atoms/images/article-accueil-img.mustache",
-        "value": {}
-      },
-      {
-        "v": "01-molecules/00-articles/00-articles.mustache",
-        "w": "00-atoms/text/legende-article-acceuil.mustache",
-        "value": {}
-      },
-      {
-        "v": "01-molecules/00-articles/00-articles.mustache",
-        "w": "00-atoms/forms/00-ligne.mustache",
-        "value": {}
-      },
-      {
-        "v": "01-molecules/00-articles/00-articles.mustache",
-        "w": "00-atoms/text/paragraph-article-accueil.mustache",
-        "value": {}
-      },
-      {
         "v": "01-molecules/00-header/00-section.mustache",
         "w": "00-atoms/images/picto-header.mustache",
         "value": {}
@@ -513,6 +527,36 @@
         "value": {}
       },
       {
+        "v": "01-molecules/00-preview-articles-infos/00-preview-articles-infos.mustache",
+        "w": "00-atoms/images/picto-agenda.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules/00-preview-articles-infos/00-preview-articles-infos.mustache",
+        "w": "00-atoms/text/preview-evnmts-date-lieu.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules/00-preview-articles-resume/00-preview-articles-resume.mustache",
+        "w": "00-atoms/images/article-accueil-img.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules/00-preview-articles-resume/00-preview-articles-resume.mustache",
+        "w": "00-atoms/text/legende-article-acceuil.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules/00-preview-articles-resume/00-preview-articles-resume.mustache",
+        "w": "00-atoms/forms/00-ligne.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-molecules/00-preview-articles-resume/00-preview-articles-resume.mustache",
+        "w": "00-atoms/text/paragraph-article-accueil.mustache",
+        "value": {}
+      },
+      {
         "v": "01-molecules/00-theme-cdc/00-theme-cdc.mustache",
         "w": "00-atoms/text/theme-coups-de-coeur.mustache",
         "value": {}
@@ -530,16 +574,6 @@
       {
         "v": "01-molecules/00-titre-section/00-titre-section.mustache",
         "w": "00-atoms/forms/00-ligne.mustache",
-        "value": {}
-      },
-      {
-        "v": "02-organismes/00-articles/00-articles.mustache",
-        "w": "01-molecules/00-titre-section/00-titre-section.mustache",
-        "value": {}
-      },
-      {
-        "v": "02-organismes/00-articles/00-articles.mustache",
-        "w": "01-molecules/00-articles/00-articles.mustache",
         "value": {}
       },
       {
@@ -563,6 +597,21 @@
         "value": {}
       },
       {
+        "v": "02-organismes/00-footer/00-footer1.mustache",
+        "w": "00-atoms/images/logo-ecv.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organismes/00-footer/00-footer1.mustache",
+        "w": "00-atoms/text/header1.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organismes/00-footer/00-footer2.mustache",
+        "w": "00-atoms/text/header1.mustache",
+        "value": {}
+      },
+      {
         "v": "02-organismes/00-header/01-header2.mustache",
         "w": "01-molecules/00-header/00-section.mustache",
         "value": {}
@@ -575,6 +624,31 @@
       {
         "v": "02-organismes/00-newsletter/00-newsletter.mustache",
         "w": "01-molecules/00-newsletter/00-champs-newsletter.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organismes/00-preview-articles/00-preview-articles.mustache",
+        "w": "01-molecules/00-titre-section/00-titre-section.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organismes/00-preview-articles/00-preview-articles.mustache",
+        "w": "01-molecules/00-preview-articles-resume/00-preview-articles-resume.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organismes/00-preview-evnmts/00-preview-evnmts.mustache",
+        "w": "01-molecules/00-titre-section/00-titre-section.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organismes/00-preview-evnmts/00-preview-evnmts.mustache",
+        "w": "01-molecules/00-preview-articles-infos/00-preview-articles-infos.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-organismes/00-preview-evnmts/00-preview-evnmts.mustache",
+        "w": "01-molecules/00-preview-articles-resume/00-preview-articles-resume.mustache",
         "value": {}
       },
       {
@@ -619,12 +693,17 @@
       },
       {
         "v": "03-templates/00-accueil/00-accueil.mustache",
-        "w": "02-organismes/00-articles/00-articles.mustache",
+        "w": "02-organismes/00-preview-articles/00-preview-articles.mustache",
         "value": {}
       },
       {
         "v": "03-templates/00-accueil/00-accueil.mustache",
         "w": "02-organismes/00-footer/00-footer1.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates/00-accueil/00-accueil.mustache",
+        "w": "02-organismes/00-footer/00-footer2.mustache",
         "value": {}
       },
       {
@@ -640,6 +719,11 @@
       {
         "v": "03-templates/02-article/00-article.mustache",
         "w": "02-organismes/00-footer/00-footer1.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates/02-article/00-article.mustache",
+        "w": "02-organismes/00-footer/00-footer2.mustache",
         "value": {}
       },
       {
@@ -668,6 +752,11 @@
         "value": {}
       },
       {
+        "v": "03-templates/03-agenda/00-agenda.mustache",
+        "w": "02-organismes/00-footer/00-footer2.mustache",
+        "value": {}
+      },
+      {
         "v": "03-templates/04-connexion/00-connexion.mustache",
         "w": "02-organismes/00-uheader/00-header1.mustache",
         "value": {}
@@ -683,6 +772,11 @@
         "value": {}
       },
       {
+        "v": "03-templates/04-connexion/00-connexion.mustache",
+        "w": "02-organismes/00-footer/00-footer2.mustache",
+        "value": {}
+      },
+      {
         "v": "03-templates/05-apropos/00-apropos.mustache",
         "w": "02-organismes/00-uheader/00-header1.mustache",
         "value": {}
@@ -695,6 +789,11 @@
       {
         "v": "03-templates/05-apropos/00-apropos.mustache",
         "w": "02-organismes/00-footer/00-footer1.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates/05-apropos/00-apropos.mustache",
+        "w": "02-organismes/00-footer/00-footer2.mustache",
         "value": {}
       }
     ]
