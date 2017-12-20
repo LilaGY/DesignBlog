@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1513252869887,
+  "timestamp": 1513788237597,
   "graph": {
     "options": {
       "directed": true,
@@ -431,7 +431,9 @@
       {
         "v": "02-organismes/00-preview-evnmts/00-preview-evnmts.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-templates-03-agenda-00-agenda/03-templates-03-agenda-00-agenda.rendered.html",
+          "lineagePattern": "templates-agenda"
         }
       },
       {
@@ -739,6 +741,11 @@
       {
         "v": "03-templates/03-agenda/00-agenda.mustache",
         "w": "02-organismes/00-cdc/00-cdc.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-templates/03-agenda/00-agenda.mustache",
+        "w": "02-organismes/00-preview-evnmts/00-preview-evnmts.mustache",
         "value": {}
       },
       {
